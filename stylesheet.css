@@ -85,3 +85,57 @@ button:hover {
     top: 50px;
     right: 200px;
 }
+
+.cards-list {
+    height: 600px;
+    margin-top: 200px;
+    background-color: white;
+    overflow: hidden;
+    padding: 50px
+}
+
+.cards {
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px 30px;
+    height: 470px;
+    cursor: pointer;
+    float: left;
+    border-radius: 20px;
+    transition:all 1s;
+}
+
+.card:hover{
+    position: relative;
+    bottom:15px;
+}
+
+.card h5 {
+    color: #ff7273;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card p {
+    color: #4f1519;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 50%;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
